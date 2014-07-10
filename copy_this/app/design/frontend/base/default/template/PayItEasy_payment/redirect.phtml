@@ -1,0 +1,11 @@
+<?php
+// Retrieve order
+		$_order = new Mage_Sales_Model_Order();
+		$orderId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+		$_order->loadByIncrementId($orderId);
+		$_order->setStatus(Mage_Sales_Model_Order::STATE_PROCESSING,true)->save();
+		$paymentMethod=$_order->getPayment()->getMethodInstance();
+		
+		$html=$paymentMethod->getTransactionRedirect($_order);
+		echo $html;
+?>

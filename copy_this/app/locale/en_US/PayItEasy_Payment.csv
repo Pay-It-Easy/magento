@@ -1,0 +1,74 @@
+ACCEPTCOUNTRIES_DESCR,"list of accepted issuing countries."
+ACCEPTCOUNTRIES_TITLE,"accept for"
+AUTOCAPTURE_DESCR_CC,"period - in hours - between reservation and automatic capture. Value may range from  0-168"
+AUTOCAPTURE_DESCR_DD,"period - in hours - between reservation and automatic capture. Value may range from  0-720"
+AUTOCAPTURE_TITLE,"capture after"
+COUNTRYREJECTMESSAGE,
+CSSURL_DESCR,"URL of the cascading style sheet (CSS), the form will be displayed with. If empty the URL that is configured in the merchant view will be used."
+CSSURL_TITLE,"css-url"
+DEBUG_DESCR,"(debug) test modus, (Transaction) log transaction data,(off) don't log"
+DEBUG_FILE_PATH_DESCR,"path to the log file."
+DEBUG_FILE_PATH_TITLE,Log file
+DEBUG_TITLE,Log
+DELIVERYCOUNTRY_ACTION_DESCR," notify: the shop will be informed in the shop notification, reject: payment with this credit card is rejected"
+DELIVERYCOUNTRY_ACTION_TITLE,"action for matching the country of delivery"
+DELIVERYCOUNTRY_REJECT_MESSAGE
+DESCRIPTION_BASE,Pay It Easy Base
+DESCRIPTION_CC,Pay It Easy Creditcard
+DESCRIPTION_DD,Pay It Easy ELV
+DESCRIPTION_GP,Pay It Easy giropay
+DESCRIPTION_PP,Pay It Easy PayPal
+FORM_LABEL_CANCEL,
+FORM_LABEL_SUBMIT,
+FORM_MERCHANTNAME_DESCR,"(Optional) the name of the merchant to be displayed in the payment form"
+FORM_MERCHANTNAME_TITLE,Merchant name
+FORM_MERCHANTREF,
+MERCHANTREF_DESCR,"Transaction reference that will be shown on the merchant's credit card statement in place of the shopping basket number."
+MERCHANTREF_TITLE,"Transaction reference"
+NOTIFICATIONFAILEDURL_DESCR,"If the shop cannot be informed about the outcome of the payment, a result page with a link to this URL is displayed to the customer."
+NOTIFICATIONFAILEDURL_TITLE,"Notification URL"
+ORDER_STATUS_DESCR,set the new order status
+ORDER_STATUS_TITLE,new order status
+PAYMENTOPTIONS_DESCR_CC,""
+PAYMENTOPTIONS_DESCR_DD,""
+PAYMENTOPTIONS_DESCR_GP,""
+PAYMENTOPTIONS_TITLE_GP,"Age verification"
+PAYMENTOPTIONS_DESCR_GP,"(disabled | enabled) <br>disabled - Perform a payment without age verification<br>enabled - Perform an age verification and payment"
+PAYMENTOPTIONS_TITLE,"Payment options"
+PUBLIC_TITLE_CC,"Pay It Easy Credit card"
+PUBLIC_TITLE_DD,"Pay It Easy Direct debit"
+PUBLIC_TITLE_GP,"Pay It Easy giropay"
+PUBLIC_TITLE_PP,"Pay It Easy PayPal"
+REDIRECT,"You will be forwarded automatically."
+REJECTCOUNTRIES_DESCR,"list of card issuing countries that will be rejected. Two letter country codes according to ISO 3166. If not provided, all issuing countries will be accepted."
+REJECTCOUNTRIES_TITLE,reject payment for
+SECRET_DESCR,"MAC Key"
+SECRET_TITLE,"MAC Key"
+SORT_ORDER_DESCR, sort oder for the payment
+SORT_ORDER_TITLE,sort order
+SSLMERCHANT_DESCR,"Merchant Login"
+SSLMERCHANT_TITLE,"Merchant Login"
+STATUS_DESCR,"payment status"
+STATUS_TITLE,"payment status"
+TEST_MODE_DESCR,"(Yes) the testing mode is enabled. Transaction are submitted to the testserver"
+TEST_MODE_TITLE,"Testing mode"
+TITLE_BASE,"Pay It Easy Base"
+TITLE_CC,"Pay It Easy Credit card"
+TITLE_DD,"Pay It Easy Direct debit"
+TITLE_GP,"Pay It Easy giropay"
+TITLE_PP,"Pay It Easy PayPal"
+TRANSACTIONTYPE_DESCR,"(preauthorization) reserve (authorization) reserve/capture"
+TRANSACTIONTYPE_TITLE,"Transaction type"
+ZONE_DESCR,"activate the paymentmodule for the selected zone"
+ZONE_TITLE,"Payment zone"
+GP_LABEL_TITLE,"Label"
+GP_LABEL_DESCR,"Label"
+GP_TEXT_TITLE,"Text"
+GP_TEXT_DESCR,"Text"
+MANDATEPREFIX_TITLE,"Mandate reference prefix"
+MANDATEPREFIX_DESC,"Mandate reference prefix"
+MANDATENAME_TITLE,"Mandate name"
+MANDATENAME_DESC,"Mandate name"
+SEQUENCETYPE_TITLE,"Sequencetype"
+SEQUENCETYPE_DESC,"Sequencetype"
+

@@ -1,0 +1,74 @@
+ACCEPTCOUNTRIES_DESCR,"(Optional) Liste der erlaubten Ausgabel&auml;nder."
+ACCEPTCOUNTRIES_TITLE,"Erlaubte Ausgabel&auml;nder"
+AUTOCAPTURE_DESCR_CC,"Zeitraum - in Stunden - zwischen Reservierung und automatischer Buchung. Ohne diesen Parameter erfolgt keine automatische Buchung. Erlaubt sind Werte von 0-168 Stunden"
+AUTOCAPTURE_DESCR_DD,"Zeitraum - in Stunden - zwischen Reservierung und automatischer Buchung. Ohne diesen Parameter erfolgt keine automatische Buchung. Erlaubt sind Werte von 0-720 Stunden"
+AUTOCAPTURE_TITLE,"Automatisches Buchen nach"
+COUNTRYREJECTMESSAGE,
+CSSURL_DESCR,"URL des Cascading Stylesheet, mit dem das Formular angezeigt wird. Ohne diesen Parameter wird die in der H&auml;ndleroberfl&auml;che konfigurierte URL verwendet."
+CSSURL_TITLE,"css-url"
+DEBUG_DESCR,"(on) Entwicklungsmodus, (Transaction) Transaktionsvorgang protokollieren, (off) Protokolierung abschalten"
+DEBUG_FILE_PATH_DESCR,"Pfad der Logdatei"
+DEBUG_FILE_PATH_TITLE,"Logdatei"
+DEBUG_TITLE,"Transaktionsvorgang protokollieren"
+DELIVERYCOUNTRY_ACTION_DESCR,"notify: bei der Benachrichtigung des Shops werden Sie &uuml;ber die fehlende &Uuml;bereinstimmung der Addressen informiert. reject: die Zahlung mit dieser Kreditkarte wird abgewiesen."
+DELIVERYCOUNTRY_ACTION_TITLE,deliverycountry action
+DELIVERYCOUNTRY_REJECT_MESSAGE
+DESCRIPTION_BASE,"Pay It Easy Base"
+DESCRIPTION_CC,"Pay It Easy Kreditkarte"
+DESCRIPTION_DD,"Pay It Easy Lastschriftzahlung"
+DESCRIPTION_GP,"Pay It Easy giropay"
+DESCRIPTION_PP,"Pay It Easy PayPal"
+FORM_LABEL_CANCEL,
+FORM_LABEL_SUBMIT,
+FORM_MERCHANTNAME_DESCR,"(Optional) Name des H&auml;ndlers, der den Kunden im Formular angezeigt wird."
+FORM_MERCHANTNAME_TITLE,"H&auml;ndlername"
+FORM_MERCHANTREF_DESCR,
+FORM_MERCHANTREF_TITLE,
+MERCHANTREF_DESCR,"Transaktionsreferenz, die auf der Kreditkartenabrechnung des H&auml;ndlers statt der Warenkorbnummer angezeigt wird."
+MERCHANTREF_TITLE,"Transaction reference"
+NOTIFICATIONFAILEDURL_DESCR,"Wenn der Shop nicht &uuml;ber den Ausgang der Zahlung informiert werden kann, wird dem Kunden eine Ergebnisseite mit einem Link zu dieser URL angezeigt."
+NOTIFICATIONFAILEDURL_TITLE,Benachrichtigung URL
+ORDER_STATUS_DESCR,
+ORDER_STATUS_TITLE,Bestellstatus
+PAYMENTOPTIONS_DESCR_CC,"(cardholder |optionalcardholder| sslifvisaenrolledu | amexavs)"
+PAYMENTOPTIONS_DESCR_DD,"(accountholder | optionalaccountholder | checklist )"
+PAYMENTOPTIONS_DESCR_GP,""
+PAYMENTOPTIONS_TITLE_GP," Altersverifikation"
+PAYMENTOPTIONS_DESCR_GP,"(disabled | enabled)<br>(disabled) - Zahlung ohne Alterverifikation durchf&uuml;hren<br>(enabled) - Kombinierte Alterverifikation und Zahlung durchf&uuml;hren"
+PAYMENTOPTIONS_TITLE,"Zahlungsoptionen"
+PUBLIC_TITLE_CC,"Pay It Easy Kreditkarte"
+PUBLIC_TITLE_DD,"Pay It Easy Lastschriftzahlung"
+PUBLIC_TITLE_GP,"Pay It Easy giropay"
+PUBLIC_TITLE_PP,"Pay It Easy PayPal"
+REDIRECT,"Bitte haben Sie etwas Geduld. Sie werden automatisch weitergeleitet."
+REJECTCOUNTRIES_DESCR,(Optional) Liste der nicht erlaubten Ausgabel&auml;nder bei Kreditkartenzahlung. Zweibuchstabige, durch Komma voneinander getrennte L&auml;nderk&uuml;rzel nach ISO 3166. Ohne diesen Parameter gilt keine Einschr&auml;nkung hinsichtlich des Ausgabelandes.,
+REJECTCOUNTRIES_TITLE,Nicht erlaubte Ausgabel&auml;nder
+SECRET_DESCR,Der MAC-Schl&uuml;ssel, der im Frontoffice hinterlegt wurde,
+SECRET_TITLE,MAC-Schl&uuml;ssel
+SORT_ORDER_DESCR,Sortierungsreihenfolge. Niedrige Zahl wird zuerst angezeigt.
+SORT_ORDER_TITLE,Sortierungsreihenfolge
+SSLMERCHANT_DESCR,Geben Sie bitte hier Ihre H&auml;ndlerkennung ein
+SSLMERCHANT_TITLE,H&auml;ndlerkennung: (sslmerchant)
+STATUS_DESCR,M&ouml;chten Sie die Zahlung aktivieren?
+STATUS_TITLE,Zahlungsmethode aktivieren:
+TEST_MODE_DESCR,(Yes) Die Transaktion wird auf dem Testserver ausgef&uuml;hrt, (No) Die Transaktion wird auf dem Life-Server ausgef&uuml;hrt.
+TEST_MODE_TITLE,Testmodus
+TITLE_BASE,Pay It Easy Basis
+TITLE_CC,Pay It Easy Kreditkarte
+TITLE_DD,Pay It Easy Lastschriftverfahren
+TITLE_GP,Pay It Easy giropay
+TITLE_PP,Pay It Easy PayPal
+TRANSACTIONTYPE_DESCR,(preauthorization) Reservieren. (authorization) Reservieren/Buchen
+TRANSACTIONTYPE_TITLE,Transaktionsart
+ZONE_DESCR,Wenn eine Zone ausgew&auml;hlt ist, wird diese Zahlungsmethode f&uuml;r diese Zone aktiviert.,
+ZONE_TITLE,Aktiv f&uuml;r Zone
+GP_LABEL_TITLE,Beschriftung
+GP_LABEL_DESCR,"Beschriftung, die zus&auml;tzlichem Text auf der giropay Login-Seite vorangestellt wird. Verwenden Sie diese Felder nur zusammen mit dem n&auml;chsten Text-Parameter."
+GP_TEXT_TITLE,Zus&auml;tzlicher Text
+GP_TEXT_DESCR,"Zus&auml;tzlicher Text, der dem Kunden auf dem giropay &Uuml;berweisungsformular angezeigt wird. Verwenden Sie diese Felder nur zusammen mit dem vorhierigen Label-Parameter."
+MANDATEPREFIX_TITLE,"Mandat-Prefix"
+MANDATEPREFIX_DESC,"Mandat-Prefix"
+MANDATENAME_TITLE,"Mandat-Name"
+MANDATENAME_DESC,"Mandat-Name"
+SEQUENCETYPE_TITLE,"Sequenztyp"
+SEQUENCETYPE_DESC,"Sequenztyp"
