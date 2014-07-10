@@ -1,4 +1,4 @@
-Modul: "Pay It Easy" Zahlungsmodul
+Modul: "Pay-It-Easy" Zahlungsmodul
 
 Version: 1.2.0
 
